@@ -1,0 +1,11 @@
+.carousel-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.carousel-image {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
