@@ -9,9 +9,9 @@ function showSequenceOne(){
 }
 
 function showSequenceTwo(){
-    image3.src = "images/sleep.jpg";
-    image1.src = "images/smell.jpg";
-    image2.src = "images/meet.jpg";
+    image1.src = "images/sleep.jpg";
+    image2.src = "images/smell.jpg";
+    image3.src = "images/meet.jpg";
 }
 
 let btn1 = document.getElementById('sequence-one');
@@ -19,3 +19,5 @@ btn1.addEventListener('click', showSequenceOne);
 
 let btn2 = document.getElementById('sequence-two');
 btn2.addEventListener('click', showSequenceTwo);
+
+showSequenceOne();

@@ -1,11 +1,51 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('../images/paws.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Times New Roman, serif;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: #664b3a;
+}
+
 .carousel-images {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-.carousel-image {
+.image {
     width: 300px;
-    height: 400px;
-    object-fit: cover;
+    height: auto;
+    object-fit: contain;
 }
+
+#image3 {
+    object-position: left center;
+}
+
+.instruction {
+    margin-top: 20px;
+    margin-bottom: 35px;
+    color: #000000;
+    font-size: 20px;
+    background-color: rgba(255, 245, 230, 0.85);
+    padding: 8px 18px;
+    border-radius: 12px;
+    display: inline-block;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+} 
